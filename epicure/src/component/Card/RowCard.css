@@ -1,0 +1,15 @@
+.cards-row{
+    margin-inline: 2vw;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1153px){
+    .Scrolling-Cards{
+        position:absolute;
+
+    }
+
+}
