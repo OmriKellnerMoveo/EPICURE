@@ -6,7 +6,7 @@ import Search_Field from "./Search_Field";
 
 
 const TopBar = (props) => {
-    const isMobileMode=props.appWidth<900
+    const isMobileMode = props.appWidth < 900
     const styles = {
         Rectangle: {
             width: '100%',
@@ -25,7 +25,7 @@ const TopBar = (props) => {
             width: 33,
             height: 33,
             objectFit: 'contain',
-            marginLeft:isMobileMode && '50%'
+            marginLeft: isMobileMode && '50%'
         },
         epicureStrStyle: {
             width: 115,
@@ -53,10 +53,10 @@ const TopBar = (props) => {
             flex: 1.5
         },
         IconsSideDiv: {
-            textAlign:'right',
+            textAlign: 'right',
             marginTop: 13,
-            flex:!isMobileMode&& 0.4,
-            marginRight: isMobileMode ? '30%':'15%',
+            flex: !isMobileMode && 0.4,
+            marginRight: isMobileMode ? '30%' : '15%',
         },
         iconStyle: {
             width: 23,
@@ -70,11 +70,11 @@ const TopBar = (props) => {
             fontWeight: 100,
             fontFamily: 'HelveticaNeue',
             color: 'black',
-        },SearchIconStyle: {
+        }, SearchIconStyle: {
             marginRight: 28,
             marginTop: 12,
             flex: 0.2,
-            width:  24,
+            width: 24,
             height: 24,
             objectFit: 'contain'
         }
@@ -84,15 +84,15 @@ const TopBar = (props) => {
         <div style={styles.leftSideDiv}>
             <img src={logo_img} style={styles.logo_img}/>
             {!isMobileMode && <span style={{...styles.baseTextStyle, ...styles.epicureStrStyle}}>{epicure_str}</span>}
-            {!isMobileMode &&<span style={{...styles.baseTextStyle, ...styles.Restaurants}}>{restaurants_str}</span>}
+            {!isMobileMode && <span style={{...styles.baseTextStyle, ...styles.Restaurants}}>{restaurants_str}</span>}
             {!isMobileMode && <span style={{...styles.baseTextStyle, ...styles.Chefs}}>{chefs_str}</span>}
         </div>
-        {props.appWidth>1300&& <div style={styles.rightSideDiv}>
+        {props.appWidth > 1300 && <div style={styles.rightSideDiv}>
             <Search_Field/>
-        </div>  }
+        </div>}
 
         <div style={styles.IconsSideDiv}>
-            {props.appWidth<1300  &&<img src={search_icon_img} style={styles.SearchIconStyle}/>}
+            {props.appWidth < 1300 && <img src={search_icon_img} style={styles.SearchIconStyle}/>}
             <img src={user_icon_img} style={{...styles.iconStyle, marginRight: 28}}/>
             <img src={bag_icon_img} style={styles.iconStyle}/>
         </div>

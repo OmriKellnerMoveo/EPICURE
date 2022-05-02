@@ -1,0 +1,11 @@
+.About-Us-Buttons-Container{
+    padding-inline: 9vw;
+    display: flex;
+    justify-content: start;
+    gap: 2vw;
+}
+@media screen and (max-width: 1100px){
+    .About-Us-Buttons-Container{
+        justify-content: center
+    }
+}

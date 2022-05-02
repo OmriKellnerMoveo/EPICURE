@@ -1,0 +1,47 @@
+.SubSectionContainer{
+    width: 1440px;
+    height: auto;
+    margin: 117px 0 1px;
+    width: 100%;
+    opacity: 0.9;
+    background-color: #fafafa;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+
+}
+.SubSectionChild{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 9vw;
+}
+.about_us_paragraph{
+    width: 50%;
+    height: auto;
+    font-family: HelveticaNeue;
+    font-size: 1.5vw;
+    font-weight: 100;
+    letter-spacing: 1.69px;
+    text-align: justify;
+    color:black;
+}
+.about_us_icon{
+    width: 178px;
+    height: 166px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1100px){
+    .SubSectionChild{
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_us_paragraph{
+        text-align: center;
+
+    }
+    .about_us_icon{
+        margin-block: 70px;
+
+    }
+}

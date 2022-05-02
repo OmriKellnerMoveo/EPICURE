@@ -1,0 +1,21 @@
+.ButtonMenuBar-Container{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 25vw;
+    gap: 5vw;
+    padding-block: 2vw;
+}
+.Link-Style{
+    width: 163px;
+    align-self: center;
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: 100;
+    opacity: 0.55;
+    letter-spacing: 1.13px;
+}
+@media screen and (max-width: 965px){
+    .ButtonMenuBar-Container{
+        flex-direction: column;
+    }
+}

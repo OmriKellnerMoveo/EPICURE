@@ -2,20 +2,23 @@ import {
     Claro_str,
     garbanzo_frito_str,
     garbanzo_frito_subTitle,
-    lumina_str,
-    meir_adoni_str,
+    kab_kem_str, kitchen_market_str,
+    lumina_str, Mashya_str,
+    meir_adoni_str, Onza_str,
     pad_ki_mao_str,
     pad_ki_mao_subTitle,
+    popina_str,
     ran_shmueli_str,
     smoked_pizza_str,
     smoked_pizza_subTitle,
+    tiger_lilly_str,
     tiger_Lilly_str,
     yanir_Green_str
 } from "./DictioneryManagement";
 import {
     claro_img,
-    garbanzoFriyoImage,
-    lumina_img,
+    garbanzoFriyoImage, kitchenMarketImage,
+    lumina_img, mashyaImage, onzaImage,
     padKi_image,
     smokedPizzaImage,
     spicyIcon,
@@ -43,6 +46,7 @@ export const RowCard_1 = [
 ]
 export const RowCard_2 = [
     {
+        topHeader: tiger_lilly_str,
         image: padKi_image,
         title: pad_ki_mao_str,
         subTitle: pad_ki_mao_subTitle,
@@ -50,12 +54,14 @@ export const RowCard_2 = [
         price: 88
     },
     {
+        topHeader: kab_kem_str,
         image: garbanzoFriyoImage,
         title: garbanzo_frito_str,
         subTitle: garbanzo_frito_subTitle,
         price: 98
     },
     {
+        topHeader: popina_str,
         image: smokedPizzaImage,
         title: smoked_pizza_str,
         subTitle: smoked_pizza_subTitle,
@@ -66,9 +72,15 @@ export const RowCard_2 = [
 ]
 
 
-export const RowCard_3 = {
-    onza: '#f9f4ea',
-    kiitchen_market: 'rgba(232, 196, 122, 0.2)',
-    mashya: '#979797',
-}
+export const RowCard_3 = [
+    {
+        image: onzaImage,
+        title: Onza_str,
+    }, {
+        image: kitchenMarketImage,
+        title: kitchen_market_str,
+    }, {
+        image: mashyaImage,
+        title: Mashya_str,
+    }]
 
