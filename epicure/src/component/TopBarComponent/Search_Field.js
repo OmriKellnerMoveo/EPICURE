@@ -7,7 +7,7 @@ import "./TopBar.css";
 const Search_Field = (props) => {
     const styles = {
         search_field: {
-            padding:'0.5vw'
+            padding: '0.5vw'
         },
         inputTextStyle: {
             fontSize: 18,
@@ -20,10 +20,11 @@ const Search_Field = (props) => {
     return (<>
         {props.withLeftIcon ? <div style={styles.search_field} className={'Search_field'}>
             <img src={search_icon_img} style={styles.SearchIconStyle} className={'SearchIconStyle'}/>
-            <input  type={"text"} className={'inputTextStyle'} placeholder={Search_placeholder}/>
+            <input type={"text"} className={'inputTextStyle'} placeholder={Search_placeholder}/>
         </div> : <div style={styles.search_field} className={'Search_field'}>
-            <input type={"text"} className={'inputTextStyle'} style={styles.inputTextStyle} placeholder={Search_placeholder}/>
-            <img src={search_icon_img} style={styles.SearchIconStyle} className={'SearchIconStyle'} />
+            <input type={"text"} className={'inputTextStyle'} style={styles.inputTextStyle}
+                   placeholder={Search_placeholder}/>
+            <img src={search_icon_img} style={styles.SearchIconStyle} className={'SearchIconStyle'}/>
         </div>}
     </>)
 }

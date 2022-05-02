@@ -1,0 +1,12 @@
+.iconMeaningContainer{
+    height: 265px;
+    opacity: 0.9;
+    background-color: #fafafa;
+}
+.container-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 30vw;
+    gap: 6vw;
+}
+

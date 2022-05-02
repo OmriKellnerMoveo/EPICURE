@@ -3,31 +3,26 @@ import React from "react";
 import './RowCard.css'
 
 const RowCard = (props) => {
-    return (
-        <div>
-            <div className={'cards-row Scrolling-Cards'}>
+    const styles = {
+        container: {
+            justifyContent: props.type === 3 ? 'start' : 'center', marginInline: props.type === 3 ? '9vw' : '2vw'
+        }
+    }
+    return (<div>
+            <div style={styles.container} className={'cards-row Scrolling-Cards'}>
                 {props.card_list.map((card) => {
-                    return (
-                        <Card
-                            key={card.title}
-                            type={props.type}
-                            image={card.image}
-                            title={card.title}
-                            subTitle={card.subTitle}
-                            icon={card.Icon}
-                            price={card.price}
-                        />
-                    )
+                    return (<Card
+                        key={card.title}
+                        type={props.type}
+                        image={card.image}
+                        title={card.title}
+                        subTitle={card.subTitle}
+                        icon={card.Icon}
+                        price={card.price}
+                        topHeader={card.topHeader}
+                    />)
                 })}
             </div>
-            {/*<br/>*/}
-            {/*<div className={'cards-row Scrolling-Cards'}>*/}
-            {/*    {RowCard_2.map((card) => {*/}
-            {/*        return (*/}
-            {/*            <Card key={card.title} image={card.image} title={card.title} subTitle={card.subTitle}/>*/}
-            {/*        )*/}
-            {/*    })}*/}
-            {/*</div>*/}
         </div>
 
     )

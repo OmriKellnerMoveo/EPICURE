@@ -1,0 +1,30 @@
+.AboutUsBtnContainer{
+    width: 181.4px;
+    height: 52.8px;
+    padding: 8px 11.7px 7.4px 10.5px;
+    border-radius: 9.6px;
+    border: solid 0.6px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Os-icon{
+    width: 23.1px;
+    height: auto;
+    object-fit: contain;
+}
+.Child-Container{
+    display: flex;
+    flex-direction: column;
+}
+.Title-style{
+    width: 120px;
+    font-family: HelveticaNeue;
+    font-size: 13.2px;
+    letter-spacing: 1.29px;
+    text-align: center;
+    color:black;
+}
+.Sub-title-Style{
+    font-size: 16.8px;
+}

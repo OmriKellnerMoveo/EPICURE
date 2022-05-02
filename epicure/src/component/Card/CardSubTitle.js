@@ -1,6 +1,7 @@
 import './CardSubTitle.css'
-const CardSubTitle=(props)=>{
-    return(
+
+const CardSubTitle = (props) => {
+    return (
         <p className={'Sub-title'}>{props.subTitle}</p>
     )
 }

@@ -1,19 +1,25 @@
-.Card-Container_type_1 {
+.Card-Container {
     background-color: beige;
-    min-width: 206px;
-    max-width: 360px;
-}
-.Card-Container_type_2 {
-    background-color: beige;
-    height: 50vw;
     min-width: 206px;
     max-width: 360px;
 }
 
-.Img-style {
+.Img-style_type_1 {
     width: 100%;
     min-width: 206px;
     max-width: 360px;
+    height: 224px;
+}
+.Img-style_type_2 {
+    width: 100%;
+    min-width: 206px;
+    max-width: 360px;
+    height: 224px;
+}
+.Img-style_type_3 {
+    min-width: 206px;
+    max-width: 360px;
+    width: 231px;
     height: 224px;
 }
 .iconStyle{
@@ -54,5 +60,12 @@
 }
 .bottom-card{
     display: flex;
-    /*vertical-align : bottom;*/
+}
+.top-header{
+    width: 147px;
+    height: 35px;
+    font-family: HelveticaNeue;
+    font-size: 30px;
+    letter-spacing: 1.77px;
+    color: black;
 }
