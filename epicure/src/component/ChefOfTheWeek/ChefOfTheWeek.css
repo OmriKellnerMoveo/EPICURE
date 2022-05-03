@@ -4,8 +4,10 @@ display: flex;
     padding-inline: 3vw;
 }
 .Chef_image {
-    width: 433px;
-    height: 338px;
+    width: 30vw;
+    /*width: 433px;*/
+    height: 23vw;
+    /*height: 338px;*/
     object-fit: contain;
 }
 .Chef-Paragraph {
@@ -23,6 +25,7 @@ display: flex;
     .Chef-Container{
         flex-direction: column;
         align-items: center;
+        padding-inline: 3vw;
     }
     .Chef-Paragraph{
         width: 325px;
@@ -35,5 +38,15 @@ display: flex;
     .Chef_image {
         width: 334px;
         height: auto;
+    }
+}
+@media screen and (max-width: 500px){
+
+    .Chef_image {
+        width: 60vw;
+        height: auto;
+    }
+    .Chef-Paragraph{
+        width: 60vw;
     }
 }

@@ -3,6 +3,7 @@ export const logo_img = require('../assets/logo.png');
 export const user_icon_img = require('../assets/user-icon.png');
 export const bag_icon_img = require('../assets/bag-icon.png');
 export const search_icon_img = require('../assets/search-icon.png');
+export const mobileMenuIcon = require('../assets/mobileMenuIcon.png');
 
 export const two_arrows_icon = require('../assets/two_arrows.png');
 export const veganIcon = require('../assets/veganIcon.png');

@@ -4,6 +4,7 @@
     padding-inline: 25vw;
     gap: 5vw;
     padding-block: 2vw;
+    margin-top: 2vw;
 }
 .Link-Style{
     width: 163px;
@@ -17,5 +18,16 @@
 @media screen and (max-width: 965px){
     .ButtonMenuBar-Container{
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 550px){
+    .Link-Style{
+        width: 163px;
+        align-self: center;
+        font-family: HelveticaNeue;
+        font-size: 3vw;
+        font-weight: 100;
+        opacity: 0.55;
+        letter-spacing: 0.1vw;
     }
 }

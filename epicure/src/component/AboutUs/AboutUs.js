@@ -1,5 +1,5 @@
 import SubSectionTitle from "../ChefRestaurants/SubSectionTitle";
-import {about_us_paragraph, about_us_str} from "../../utils/DictioneryManagement";
+import {about_us_paragraph_1,about_us_paragraph_2, about_us_str} from "../../utils/DictioneryManagement";
 import React from "react";
 import './AboutUs.css'
 import {about_us_logo_icon} from "../../utils/ImageManagement";
@@ -8,7 +8,10 @@ const AboutUs=()=>{
     return(<div className={'SubSectionContainer'}>
         <SubSectionTitle title={about_us_str}/>
         <div  className={'SubSectionChild'}>
-            <p className={'about_us_paragraph'}>{about_us_paragraph}</p>
+            <div>
+                <p className={'about_us_paragraph'}>{about_us_paragraph_1}</p>
+                <p className={'about_us_paragraph'}>{about_us_paragraph_2}</p>
+            </div>
             <img className={'about_us_icon'} src={about_us_logo_icon} alt='about us'/>
         </div>
        <AboutUsButtons/>

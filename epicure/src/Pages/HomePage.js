@@ -37,10 +37,8 @@ const HomePage = () => {
     }
     return (
         <div style={styles.container}>
-            <TopBar
-                appWidth={width}
-            />
-            <MainCover appWidth={width}/>
+            <TopBar/>
+            <MainCover/>
             <SectionTitle title={popular_restaurants}/>
             <RowCard card_list={RowCard_1} type={1}/>
             <All_Restaurants_link/>

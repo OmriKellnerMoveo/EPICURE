@@ -23,8 +23,28 @@
     font-size: 13.2px;
     letter-spacing: 1.29px;
     text-align: center;
-    color:black;
 }
 .Sub-title-Style{
     font-size: 16.8px;
+}
+@media screen and (max-width: 550px){
+    .AboutUsBtnContainer{
+        width: 33vw;
+        height: 9vw;
+        padding: 1vw;
+
+    }
+    .Os-icon{
+        width: 4vw;
+        height: auto;
+    }
+    .Title-style{
+        width: 22vw;
+        font-size: 2vw;
+        letter-spacing: 0.1vw;
+        text-align: center;
+    }
+    .Sub-title-Style{
+        font-size: 3vw;
+    }
 }

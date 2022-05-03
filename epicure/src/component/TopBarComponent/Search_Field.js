@@ -1,30 +1,18 @@
 import {Search_placeholder} from "../../utils/DictioneryManagement";
 import {search_icon_img} from "../../utils/ImageManagement";
 import React from "react";
-import "./TopBar.css";
-
+import './Search_Field.css'
 
 const Search_Field = (props) => {
-    const styles = {
-        search_field: {
-            padding: '0.5vw'
-        },
-        inputTextStyle: {
-            fontSize: 18,
-        },
-        SearchIconStyle: {
-            width: props.withLeftIcon ? '2vw' : 24,
-            height: props.withLeftIcon ? '2vw' : 24,
-        }
-    }
     return (<>
-        {props.withLeftIcon ? <div style={styles.search_field} className={'Search_field'}>
-            <img src={search_icon_img} style={styles.SearchIconStyle} className={'SearchIconStyle'}/>
+        {props.withLeftIcon ?
+            <div className={'big-Search_field'}>
+            <img src={search_icon_img} className={'SearchIconStyle SearchExtraStyle-IconStyle' }/>
+            <input type={"text"} className={'inputTextStyle inputExtraStyle-TextStyle'} placeholder={Search_placeholder}/>
+        </div> :
+            <div className={'Search_field'}>
             <input type={"text"} className={'inputTextStyle'} placeholder={Search_placeholder}/>
-        </div> : <div style={styles.search_field} className={'Search_field'}>
-            <input type={"text"} className={'inputTextStyle'} style={styles.inputTextStyle}
-                   placeholder={Search_placeholder}/>
-            <img src={search_icon_img} style={styles.SearchIconStyle} className={'SearchIconStyle'}/>
+            <img src={search_icon_img} className={'SearchIconStyle'}/>
         </div>}
     </>)
 }
