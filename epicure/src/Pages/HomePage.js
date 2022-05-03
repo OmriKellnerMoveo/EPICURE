@@ -19,8 +19,6 @@ import Splide from "../component/Card/Splide";
 const HomePage = () => {
     return (<>
             <MainCover />
-
-
             <SectionTitle title={popular_restaurants}/>
             <Splide card_list={RowCard_1} type={1}/>
 
