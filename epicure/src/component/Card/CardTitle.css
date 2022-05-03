@@ -6,4 +6,9 @@
 }
 
 
+@media screen and (min-width: 1440px){
+    .Card-title {
+        font-size: 38.4px;
+    }
 
+}

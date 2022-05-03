@@ -9,7 +9,7 @@ const RowCard = (props) => {
         }
     }
     return (<div>
-            <div style={styles.container} className={'cards-row Scrolling-Cards'}>
+            <div style={styles.container} className={'cards-row'}>
                 {props.card_list.map((card) => {
                     return (<Card
                         key={card.title}

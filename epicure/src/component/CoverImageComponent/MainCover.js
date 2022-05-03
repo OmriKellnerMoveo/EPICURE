@@ -6,7 +6,7 @@ import CoverButtons from "./CoverButtons";
 
 const MainCover = () => {
     return (
-        <div>
+        <>
             <div className={'BackgroundCoverImage'}>
                 <div className={'search_box_container'}>
                     <p className={"Epicure-works-with-t"}>{epicure_works_p}</p>
@@ -18,7 +18,7 @@ const MainCover = () => {
 
             </div>
             <CoverButtons/>
-        </div>
+        </>
 
     )
 }
