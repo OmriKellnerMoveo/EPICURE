@@ -1,16 +1,19 @@
-.All-Restaurants {
+
+.paragraph_container{
+    margin-top: 2.5vw;
+    text-align: right;
+    margin-inline:10vw;
+
+}
+
+.All-Restaurants-span {
     font-family: HelveticaNeue;
     font-size: 30px;
     letter-spacing: 2px;
     color: black;
     margin-right: 12px;
 }
-.paragraph_container{
-    margin-top: 31px;
-    text-align: right;
-    margin-inline:10vw;
 
-}
 @media screen  and (max-width: 1153px){
     .paragraph_container{
         display: none;

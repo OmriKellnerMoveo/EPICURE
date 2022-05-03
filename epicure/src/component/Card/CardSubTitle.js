@@ -2,7 +2,7 @@ import './CardSubTitle.css'
 
 const CardSubTitle = (props) => {
     return (
-        <p className={'Sub-title'}>{props.subTitle}</p>
+        <span className={'Sub-title'}>{props.subTitle}</span>
     )
 }
 export default CardSubTitle

@@ -48,13 +48,13 @@ export const Mashya_str='Mashya'
 
 
 //About us
-export const about_us_paragraph='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus vel justo fermentum bibendum non \n' +
+export const about_us_paragraph_1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus vel justo fermentum bibendum non \n' +
     'eu ipsum. Cras porta malesuada eros, eget blandit\n' +
     ' turpis suscipit at.  Vestibulum sed massa in magna sodales porta.  Vivamus elit urna, \n' +
-    'dignissim a vestibulum.\n' +
-    '\n' +
+    'dignissim a vestibulum.'
+export const about_us_paragraph_2=
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus vel justo fermentum bibendum no\n' +
-    'eu ipsum. Cras porta malesuada eros.\n'
+    'eu ipsum. Cras porta malesuada eros.'
 
 export const download_on_the_str='Download on the'
 export const app_store_str='App Store'
