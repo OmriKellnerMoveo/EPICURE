@@ -1,7 +1,11 @@
 .iconMeaningContainer{
-    height: 265px;
+    margin-top: 3vw;
     opacity: 0.9;
     background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .container-icons{
     display: flex;
@@ -9,4 +13,3 @@
     padding-inline: 30vw;
     gap: 6vw;
 }
-

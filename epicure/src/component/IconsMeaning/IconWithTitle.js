@@ -4,7 +4,7 @@ const IconWithTitle = (props) => {
     return (
         <div>
             <img className={'iconSize'} src={props.image} alt='icon'/>
-            <p>{props.title}</p>
+            <p className={'IconNameText'}>{props.title}</p>
         </div>
 
     )

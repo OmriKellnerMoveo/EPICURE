@@ -1,8 +1,8 @@
 import CardTitle from "./CardTitle";
-import {ils_icon} from "../../utils/ImageManagement";
 import React from "react";
 import CardSubTitle from "./CardSubTitle";
 import './Card.css'
+import PriceWithLines from "./PriceWithLines";
 
 const Card = (props) => {
     return (<div>
@@ -19,18 +19,9 @@ const Card = (props) => {
                 <div style={{height: '5vw', marginBottom: '5vw'}}>
                     <CardSubTitle subTitle={props.subTitle}/>
                 </div>
-
                 {props.icon ? <img className={'iconStyle'} src={props.icon} alt='icon'/> :
                     <div className={'iconStyle'}/>}
-                <div className={'bottom-card'}>
-                    <div className={'line'}/>
-                    <div className={'price-container'}>
-                        <img className={'ils'} src={ils_icon} alt='ils-icon'/>
-                        <span className={'price'}>{props.price}</span>
-                    </div>
-                    <div className={'line'}/>
-                </div>
-
+                <PriceWithLines price={props.price}/>
             </div>
         </div>}
         {props.type === 3 && <div className={'Card-Container_type_3 '}>

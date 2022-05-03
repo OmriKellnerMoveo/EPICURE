@@ -1,21 +1,9 @@
 .Card-title {
     font-family: HelveticaNeue;
-    letter-spacing: 1.77px;
-    color: black;
+    letter-spacing: 0.251vw;
     font-size: 3vw;
+    height: 2vw;
 }
-
-/*@media screen  and (min-width: 1000px){*/
-/*    .getFontSize{*/
-/*font-size: 40px;*/
-/*    }*/
-/*}*/
-
-/*@media screen  and (max-width: 625px){*/
-/*    .getFontSize{*/
-/*        font-size: 25px;*/
-/*    }*/
-/*}*/
 
 
 
