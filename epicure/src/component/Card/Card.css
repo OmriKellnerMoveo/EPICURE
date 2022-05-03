@@ -40,43 +40,6 @@
     align-self: center;
 }
 
-.bottom-card {
-    display: flex;
-}
-
-.line {
-    margin-inline: 1.5vw;
-    flex: 0.5;
-    height: 0.1px;
-    background-color: black;
-    opacity: 0.22;
-    align-self: center;
-
-}
-
-.price-container {
-    align-self: flex-end;
-}
-
-.ils {
-    width: 1.2vw;
-    height: 1.2vw;
-    object-fit: contain;
-    margin-right: 6px;
-    flex: 0.1
-}
-
-.price {
-    width: 2.5vw;
-    height: 2.5vw;
-    font-family: HelveticaNeue;
-    font-size: 2vw;
-    font-weight: 100;
-    letter-spacing: 1.66px;
-    color: black;
-    opacity: 0.55;
-}
-
 .Img-style_type_3 {
     width: 16vw;
     height: 16vw;

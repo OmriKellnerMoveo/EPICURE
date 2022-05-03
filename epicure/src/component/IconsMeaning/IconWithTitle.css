@@ -3,3 +3,12 @@
     height: 60px;
     flex: 1;
 }
+@media screen and (max-width: 650px){
+    .iconSize{
+       width:8vw;
+        height: 8vw;
+    }
+    .IconNameText{
+        font-size: 2vw;
+    }
+}

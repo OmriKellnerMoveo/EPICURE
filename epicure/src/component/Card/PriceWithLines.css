@@ -1,0 +1,40 @@
+.bottom-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    margin-inline: 1.5vw;
+    flex: 0.5;
+    height: 0.8px;
+    background-color: black;
+    opacity: 0.22;
+    align-self: center;
+}
+
+.price-container {
+    display: flex;
+}
+
+.ils {
+    width: 1.2vw;
+    object-fit: contain;
+    margin-right: 6px;
+    opacity: 0.55;
+
+}
+
+.price {
+    width: 2.5vw;
+    height: 2.5vw;
+    font-family: HelveticaNeue;
+    font-size: 2vw;
+    font-weight: 100;
+    letter-spacing: 1.66px;
+    color: black;
+    opacity: 0.55;
+}
+@media screen and (max-width: 620px){
+    .line {
+    }
+}
