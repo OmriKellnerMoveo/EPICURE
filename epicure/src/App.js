@@ -1,9 +1,11 @@
 import React from 'react';
 import HomePage from "./Pages/HomePage";
+import FullPage from "./Pages/FullPage";
 
 function App() {
     return (
-            <HomePage/>
+        <FullPage> <HomePage/></FullPage>
+
     );
 }
 

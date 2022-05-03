@@ -6,6 +6,7 @@
     background-color: beige;
     width: 25vw;
     height: 24.5vw;
+    max-width: 360px;
 }
 
 .Card-Container_type_2 {
@@ -16,6 +17,8 @@
     background-color: beige;
     width: 25vw;
     height: 45vw;
+    max-width: 360px;
+
 }
 
 .Card-Container_type_3 {
@@ -24,6 +27,8 @@
     background-color: beige;
     width: 16vw;
     height: 24.7vw;
+    max-width: 231px;
+
 }
 
 .top-header {
@@ -40,7 +45,22 @@
     align-self: center;
 }
 
-.Img-style_type_3 {
-    width: 16vw;
-    height: 16vw;
+@media screen and (max-width: 623px) {
+    .Card-Container_type_1 {
+        /*gap: 2vw;*/
+        width: 40vw;
+        height: 40vw;
+    }
 }
+/*.Img-style_type_3 {*/
+/*    width: 16vw;*/
+/*    height: 16vw;*/
+/*}*/
+/*.Img-style_type_3 {*/
+/*    width: 16vw;*/
+/*    height: 16vw;*/
+/*}*/
+/*.Img-style_type_3 {*/
+/*    width: 16vw;*/
+/*    height: 16vw;*/
+/*}*/
