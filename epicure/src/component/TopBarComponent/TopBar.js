@@ -4,13 +4,14 @@ import './Search_Field.css'
 import React from "react";
 import {chefs_str, epicure_str, restaurants_str} from "../../utils/DictioneryManagement";
 import Search_Field from "./Search_Field";
+import '../../Animation/tracking-in-contract-bck-top.css'
 
 const TopBar = () => {
     return (
-        <div className={'TopBar-Container'}>
+        <div className={'TopBar-Container tracking-in-contract-bck-top'}>
             <img src={mobileMenuIcon} className={'mobileMenuIcon'}/>
             <div className={'left-side'}>
-                <img src={logo_img} className={'logo-image'}/>
+                <img src={logo_img} className={'logo-image rotate-scale-up-delay'}/>
                 <span className={'text-style large-text'}>{epicure_str}</span>
                 <span className={'text-style'}>{restaurants_str}</span>
                 <span className={'text-style'}>{chefs_str}</span>

@@ -1,5 +1,5 @@
 import './CardTitle.css'
-
+import '../../Animation/text-focus-in.css'
 const CardTitle = (props) => {
     const styles = {
         paragraph: {
@@ -7,7 +7,7 @@ const CardTitle = (props) => {
         }
     }
     return (
-            <span style={styles.paragraph} className={'Card-title'}>{props.title}</span>
+            <span style={styles.paragraph} className={'Card-title text-focus-in'}>{props.title}</span>
     )
 }
 export default CardTitle

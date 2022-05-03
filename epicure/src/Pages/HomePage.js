@@ -15,10 +15,13 @@ import ChefOfTheWeek from "../component/ChefOfTheWeek/ChefOfTheWeek";
 import SubSectionTitle from "../component/ChefRestaurants/SubSectionTitle";
 import AboutUs from "../component/AboutUs/AboutUs";
 import Splide from "../component/Card/Splide";
+// import { fadeIn } from 'react-animations'
 
 const HomePage = () => {
+
     return (<>
             <MainCover />
+
             <SectionTitle title={popular_restaurants}/>
             <Splide card_list={RowCard_1} type={1}/>
 
