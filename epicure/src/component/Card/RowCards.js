@@ -7,8 +7,7 @@ import Card from "./Card";
 
 export default function (props) {
     const ref = useRef();
-    return (
-        <div className={props.type !== 3 ? 'Splide-container' : 'Splide-container_type_3'}>
+    return (<div className={props.type !== 3 ? 'Splide-container' : 'Splide-container_type_3'}>
             <Splide
                 ref={ref}
                 options={{
@@ -16,29 +15,25 @@ export default function (props) {
                     arrows: false,
                     type: 'loop',
                     rewind: false,
-                    autoScroll: 'false',
+                    autoScroll: false,
                     speed: 2000,
-
-                    autoWidth: false,
+                    autoWidth: true,
                     perPage: 3,
-                    perMove: 3,
-                    gap: '1rem',
+                    perMove: 1,
+                    gap: props.type !== 3 ? 20 : 15,
                     pagination: false,
                     breakpoints: {
                         623: {
-                            gap:0,
                             //type 3 = 2.2 cards
                             //type 2 = 1.25 cards
                             //type 1= 1.6 cards
-                            perPage: props.type === 3 ? 2.2 : props.type ===2 ?1.25 : 1.6,
-                            perMove: props.type === 3 ? 2.2 : props.type ===2 ?1.25 : 1.6,
+                            perPage: props.type === 3 ? 2.2 : props.type === 2 ? 1.25 : 1.6, perMove: 1, gap: 8,
                         },
                     }
                 }}
             >
                 {props.card_list.map(card => {
-                    return (
-                        <SplideSlide key={card.title} className="slide">
+                    return (<SplideSlide key={card.title} className="slide">
                             <Card
                                 key={card.title}
                                 type={props.type}
@@ -49,10 +44,8 @@ export default function (props) {
                                 price={card.price}
                                 topHeader={card.topHeader}
                             />
-                        </SplideSlide>
-                    );
+                        </SplideSlide>);
                 })}
             </Splide>
-        </div>
-    );
+        </div>);
 }
