@@ -29,12 +29,21 @@
     height: 2.5vw;
     font-family: HelveticaNeue;
     font-size: 2vw;
-    font-weight: 100;
     letter-spacing: 1.66px;
-    color: black;
     opacity: 0.55;
 }
-@media screen and (max-width: 620px){
+@media screen and (max-width: 623px){
     .line {
+        height: 0.5vw;
+    }
+    .price {
+        opacity: 1;
+        width: 8vw;
+        height: 7vw;
+        font-size: 6vw;
+    }
+    .ils {
+        opacity: 1;
+        width: 3vw;
     }
 }

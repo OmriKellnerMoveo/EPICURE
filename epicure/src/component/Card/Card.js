@@ -8,17 +8,17 @@ import './../../Animation/tilt-in-top-1.css'
 const Card = (props) => {
     return (<div>
         {props.type === 1 && <div className={'Card-Container_type_1 tilt-in-top-1'}>
-            <img src={props.image} />
-            <CardTitle title={props.title}/>
-            <CardSubTitle subTitle={props.subTitle}/>
+            <img className={'image_style_type_1'} src={props.image} />
+            <CardTitle title={props.title} type={1}/>
+            <CardSubTitle type={1} subTitle={props.subTitle}/>
         </div>}
         {props.type === 2 && <div>
             <p className={'top-header'}>{props.topHeader}</p>
             <div className={'Card-Container_type_2 tilt-in-top-1'}>
                 <img src={props.image}/>
-                <CardTitle title={props.title}/>
+                <CardTitle title={props.title} type={2}/>
                 <div style={{height: '5vw', marginBottom: '5vw'}}>
-                    <CardSubTitle subTitle={props.subTitle}/>
+                    <CardSubTitle type={2} subTitle={props.subTitle}/>
                 </div>
                 {props.icon ? <img className={'iconStyle'} src={props.icon} alt='icon'/> :
                     <div className={'iconStyle'}/>}

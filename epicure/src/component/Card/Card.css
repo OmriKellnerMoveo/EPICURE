@@ -44,15 +44,45 @@
     object-fit: contain;
     align-self: center;
 }
-
+.image_style_type_1{
+object-fit: cover;
+}
 @media screen and (max-width: 623px) {
     .Card-Container_type_1 {
-        width: 40vw;
-        height: 40vw;
+        width: 54vw;
+        height: 80vw;
     }
-    .Card-Container_type_2 {
-        width: 40vw;
-        height: 60.7vw;
-    }
-}
+        .image_style_type_1{
+            object-fit: cover;
+            height: 59vw;
+        }
 
+    .Card-Container_type_2 {
+        width: 69vw;
+        height: 122vw;
+        gap: 0;
+    }
+    .top-header {
+        height: 5vw;
+        font-size: 4vw;
+        letter-spacing: 0.94px;
+    }
+    .iconStyle {
+        margin-top: 6vw;
+        object-fit: contain;
+        align-self: center;
+        width: 10vw;
+        height: 10vw;
+    }
+    .Card-Container_type_3 {
+        width: 40vw;
+        height: 53vw;
+        gap: 0;
+    }
+    .image_style_type_3{
+        object-fit: cover;
+        height: 39vw;
+        width: 40vw;
+    }
+
+}

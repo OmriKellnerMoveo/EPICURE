@@ -14,27 +14,22 @@ import IconsMeaning from "../component/IconsMeaning/IconsMeaning";
 import ChefOfTheWeek from "../component/ChefOfTheWeek/ChefOfTheWeek";
 import SubSectionTitle from "../component/ChefRestaurants/SubSectionTitle";
 import AboutUs from "../component/AboutUs/AboutUs";
-import Splide from "../component/Card/Splide";
+import Splide from "../component/Card/RowCards";
 // import { fadeIn } from 'react-animations'
 
 const HomePage = () => {
 
     return (<>
             <MainCover />
-
-            <SectionTitle title={popular_restaurants}/>
+            <SectionTitle title={popular_restaurants} marginTop={'10vw'}/>
             <Splide card_list={RowCard_1} type={1}/>
-
-            {/*<RowCard card_list={RowCard_1} type={1}/>*/}
             <All_Restaurants_link/>
-            <SectionTitle title={signature_dish}/>
-            {/*<RowCard card_list={RowCard_2} type={2}/>*/}
+            <SectionTitle title={signature_dish} marginTop={'10vw'}/>
             <Splide card_list={RowCard_2} type={2}/>
             <IconsMeaning/>
             <SectionTitle title={chef_of_the_week_str}/>
             <ChefOfTheWeek/>
-            <SubSectionTitle title={chefs_restaurants}/>
-            {/*<RowCard card_list={RowCard_3} type={3}/>*/}
+            <SubSectionTitle title={chefs_restaurants} alignLeft/>
             <Splide card_list={RowCard_3} type={3}/>
             <AboutUs/>
         </>

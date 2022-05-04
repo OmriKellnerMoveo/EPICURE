@@ -1,10 +1,10 @@
 .CoverButtons-Container{
     background-color: #fafafa;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 7vw;
     padding-bottom: 7vw;
-    padding-inline: 30vw;
+    padding-inline: 20vw;
 }
 
 @media screen and (min-width: 501px){
