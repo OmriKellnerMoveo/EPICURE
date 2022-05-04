@@ -15,7 +15,6 @@ import ChefOfTheWeek from "../component/ChefOfTheWeek/ChefOfTheWeek";
 import SubSectionTitle from "../component/ChefRestaurants/SubSectionTitle";
 import AboutUs from "../component/AboutUs/AboutUs";
 import Splide from "../component/Card/RowCards";
-// import { fadeIn } from 'react-animations'
 
 const HomePage = () => {
 
