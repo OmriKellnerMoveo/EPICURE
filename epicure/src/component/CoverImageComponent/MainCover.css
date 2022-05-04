@@ -15,7 +15,6 @@
 .search_box_container {
     align-self: center;
     display: flex;
-    /*gap: 0.5vw;*/
     flex-direction: column;
     justify-content: center;
     width: 54vw;
@@ -23,10 +22,9 @@
     background-color: rgba(255, 255, 255, 0.88);
 
 }
-
 .Epicure-works-with-t {
     font-family: HelveticaNeue;
-    opacity: 0.6;
+    opacity: 0.5 !important;
     font-size: 2.5vw;
     font-weight: 100;
     line-height: 1;
@@ -37,3 +35,40 @@
     align-self: center;
 }
 
+
+@media screen and (max-width: 500px){
+    .search_box_container{
+        width: 89vw;
+        height: 33vw;
+
+    }
+    .Epicure-works-with-t {
+        align-self: center;
+        font-size: 2.5vw;
+        letter-spacing: 1px;
+        font-size: 16px;
+        width: 60vw;
+    }
+
+
+}
+@media screen and (max-width: 700px) and (min-width: 501px){
+    .search_box_container{
+        width: 70vw;
+        height: 26vw;
+
+    }
+    .Epicure-works-with-t {
+             align-self: center;
+             font-size: 2.5vw;
+             letter-spacing: 1px;
+             font-size: 16px;
+             width: 60vw;
+         }}
+@media screen and (min-width: 1441px){
+    .Epicure-works-with-t {
+        align-self: center;
+        width: 487px;
+        font-size: 35px;
+        letter-spacing: 1px;
+    }}

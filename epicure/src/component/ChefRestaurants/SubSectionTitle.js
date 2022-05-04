@@ -1,9 +1,15 @@
 import './SubSectionTitle.css'
 
 const SubSectionTitle = (props) => {
+    const styles={
+        container:{
+            textAlign:props.alignLeft && 'start',
+            marginLeft:props.alignLeft && '9vw'
+        }
+    }
     return (
         <div>
-            <p className={'SubSectionTitle-Container'}>{props.title}</p>
+            <p style={styles.container} className={'SubSectionTitle-Container'}>{props.title}</p>
         </div>
     )
 }

@@ -22,12 +22,16 @@ export default function (props) {
                     autoWidth: false,
                     perPage: 3,
                     perMove: 3,
-                    gap: '2vw',
+                    gap: '1rem',
                     pagination: false,
                     breakpoints: {
                         623: {
-                            perPage: props.type === 3 ? 3 : 2,
-                            perMove: props.type === 3 ? 3 : 2,
+                            gap:0,
+                            //type 3 = 2.2 cards
+                            //type 2 = 1.25 cards
+                            //type 1= 1.6 cards
+                            perPage: props.type === 3 ? 2.2 : props.type ===2 ?1.25 : 1.6,
+                            perMove: props.type === 3 ? 2.2 : props.type ===2 ?1.25 : 1.6,
                         },
                     }
                 }}

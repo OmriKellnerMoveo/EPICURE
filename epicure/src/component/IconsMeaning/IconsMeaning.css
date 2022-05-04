@@ -13,3 +13,10 @@
     padding-inline: 30vw;
     gap: 6vw;
 }
+@media screen and (max-width: 623px) {
+    .iconMeaningContainer{
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+
+    }
+}

@@ -1,14 +1,45 @@
-.Card-title {
+.Card-title-type-1 {
     font-family: HelveticaNeue;
     letter-spacing: 0.251vw;
     font-size: 3vw;
     height: 2vw;
 }
+.Card-title-type-2 {
+    font-family: HelveticaNeue;
+    letter-spacing: 0.251vw;
+    font-size: 3vw;
+    height: 2vw;
+}
+.Card-title-type-3 {
+    font-family: HelveticaNeue;
+    letter-spacing: 0.251vw;
+    font-size: 2.5vw;
+    height: 2vw;
+}
 
 
 @media screen and (min-width: 1440px){
-    .Card-title {
+    .Card-title-type-1 {
+        font-size: 38.4px;
+    }
+    .Card-title-type-2 {
         font-size: 38.4px;
     }
 
+}
+@media screen and (max-width: 623px) {
+    .Card-title-type-1 {
+        margin-top: 3vw;
+        font-size: 6vw;
+    }
+    .Card-title-type-2 {
+        margin-top: -8vw;
+        margin-bottom: -10vw;
+        font-size: 6vw;
+    }
+    .Card-title-type-3 {
+        margin-top: 3vw;
+        font-size: 5vw !important;
+        height: 6vw;
+    }
 }

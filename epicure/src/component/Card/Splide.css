@@ -2,6 +2,7 @@
 .Splide-container{
     padding-inline: 9vw;
     max-width: 1440px;
+
 }
 .Splide-container_type_3{
     padding-left: 9vw;
@@ -10,8 +11,16 @@
 }
 @media screen and (max-width: 623px){
     .Splide-container_type_3{
-        padding-right:9vw;
+        padding-right:0vw;
         margin:auto;
-        width: 60vw;
+    }
+    .Splide-container{
+        padding-right:0vw;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1440px){
+    .Splide-container_type_3{
+        padding-right:29vw;
     }
 }

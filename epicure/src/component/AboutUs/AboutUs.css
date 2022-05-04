@@ -1,4 +1,4 @@
-.SubSectionContainer{
+.SubSectionContainer {
     height: auto;
     margin: 117px 0 1px;
     width: 100%;
@@ -8,45 +8,61 @@
     padding-bottom: 3vw;
 
 }
-.SubSectionChild{
+
+.SubSectionChild {
     display: flex;
     justify-content: space-between;
     padding-inline: 9vw;
 }
-.about_us_paragraph{
+
+.about_us_paragraph {
     width: 50%;
     height: auto;
     font-family: HelveticaNeue;
     font-size: 1.5vw;
-    font-weight: 100;
     letter-spacing: 1.69px;
     text-align: justify;
-    color:black;
+    opacity: 0.8;
 }
-.about_us_icon{
+
+.about_us_icon {
     width: 178px;
     height: 166px;
     object-fit: contain;
 }
 
-@media screen and (max-width: 1100px){
-    .SubSectionChild{
+@media screen and (max-width: 1100px) {
+    .SubSectionChild {
         flex-direction: column;
         align-items: center;
     }
-    .about_us_paragraph{
+
+    .about_us_paragraph {
         text-align: center;
-      margin-inline:auto;
+        margin-inline: auto;
 
     }
-    .about_us_icon{
+
+    .about_us_icon {
         margin-block: 70px;
 
     }
 }
-@media screen and (max-width: 550px){
-    .about_us_icon{
+
+@media screen and (max-width: 623px) {
+    .about_us_icon {
         width: 36vw;
         height: auto;
+    }
+
+    .SubSectionChild {
+        padding-inline: 0vw;
+    }
+
+    .about_us_paragraph {
+        width: 81vw;
+        height: auto;
+        font-size: 3.7vw;
+        opacity: 0.55;
     }
 }
