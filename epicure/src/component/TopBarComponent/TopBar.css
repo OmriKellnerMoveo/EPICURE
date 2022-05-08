@@ -56,23 +56,27 @@
     .searchIcon{
         display: none;
     }
-
 }
 @media screen and (min-width: 501px){
-    .mobileMenuIcon{
+    .mobileMenuIcon-Container{
         display: none;
     }
 }
 @media screen and (max-width: 500px){
+    .mobileMenuIcon-Container{
+        flex:1;
+        text-align: start;
+    }
+    .right-side{
+        flex: 1;
+        justify-content: flex-end;
+    }
     .text-style{
         display: none;
     }
     .TopBar-Container{
         padding-inline: 3vw;
         justify-content: space-between;
-    }
-    .logo-image{
-        margin-left: 16vw;
     }
 }
 
