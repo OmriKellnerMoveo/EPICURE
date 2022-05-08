@@ -8,13 +8,12 @@ import {AnimatedOnScroll} from "react-animated-css-onscroll";
 
 const Card = (props) => {
     return (<div>
-        {props.type === 1 && <AnimatedOnScroll animationIn="tilt-in-top-1">
-            <div className={'Card-Container_type_1'}>
+        {props.type === 1 &&
+            <div className={'Card-Container_type_1 tilt-in-top-1'}>
                 <img className={'image_style_type_1'} src={props.image}/>
                 <CardTitle title={props.title} type={1}/>
                 <CardSubTitle type={1} subTitle={props.subTitle}/>
-            </div>
-        </AnimatedOnScroll>}
+            </div>}
         {props.type === 2 && <AnimatedOnScroll animationIn="tilt-in-top-1">
             <div>
                 <p className={'top-header'}>{props.topHeader}</p>
