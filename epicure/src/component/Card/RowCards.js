@@ -4,10 +4,14 @@ import {Splide, SplideSlide} from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import './Splide.css'
 import Card from "./Card";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 
 export default function (props) {
     const ref = useRef();
-    return (<div className={props.type !== 3 ? 'Splide-container' : 'Splide-container_type_3'}>
+    return (
+        <div className={props.type !== 3 ? 'Splide-container' : 'Splide-container_type_3'}>
+            <AnimatedOnScroll animationIn="tilt-in-top-1">
+
             <Splide
                 ref={ref}
                 options={{
@@ -33,7 +37,8 @@ export default function (props) {
                 }}
             >
                 {props.card_list.map(card => {
-                    return (<SplideSlide key={card.title} className="slide">
+                    return (
+                        <SplideSlide key={card.title} className="slide">
                             <Card
                                 key={card.title}
                                 type={props.type}
@@ -47,5 +52,6 @@ export default function (props) {
                         </SplideSlide>);
                 })}
             </Splide>
+            </AnimatedOnScroll>
         </div>);
 }
