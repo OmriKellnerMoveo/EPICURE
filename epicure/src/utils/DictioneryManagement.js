@@ -14,7 +14,7 @@ export const Vegan_str ='Vegan'
 export const chef_of_the_week_str ='CHEF OF THE WEEK :'
 export const chefs_restaurants ='Yossi’s restaurants :'
 export const about_us_str ='ABOUT US :'
-export const chef_of_the_week_paragraph ='Chef Yossi Shitrit has been living and breathing his culinary dreams for more than two decades, including running the kitchen in his first restaurant, the fondly-remembered Violet, located in Moshav Udim. Shitrit\'s creativity and culinary acumen born of long experience are expressed in the every detail of each and\n' +
+ export const chef_of_the_week_paragraph ='Chef Yossi Shitrit has been living and breathing his culinary dreams for more than two decades, including running the kitchen in his first restaurant, the fondly-remembered Violet, located in Moshav Udim. Shitrit\'s creativity and culinary acumen born of long experience are expressed in the every detail of each and\n' +
     'every dish.'
 
 //// card details
