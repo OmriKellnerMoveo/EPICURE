@@ -10,25 +10,25 @@ export const veganIcon = require('../assets/veganIcon.png');
 export const vegetarianIcon = require('../assets/vegetarianIcon.png');
 export const spicyIcon = require('../assets/spicyIcon.png');
 //card 1
-export const claro_img = require('../assets/claro.png');
-export const lumina_img = require('../assets/mizlala-gret-mullet-fillet.png');
-export const tiger_Lilly_img = require('../assets/tiger.png');
+export const claro_img = require('../assets/restaurant_images/claro.png');
+export const lumina_img = require('../assets/restaurant_images/lumina.png');
+export const tiger_Lilly_img = require('../assets/restaurant_images/tiger.png');
 
 
 //card2
-export const padKi_image = require('../assets/padKi_image.png');
-export const garbanzoFriyoImage = require('../assets/garbanzoFriyoImage.png');
-export const smokedPizzaImage = require('../assets/smokedPizzaImage.png');
+export const padKi_image = require('../assets/dish_images/padKi_image.png');
+export const garbanzoFriyoImage = require('../assets/dish_images/garbanzoFriyoImage.png');
+export const smokedPizzaImage = require('../assets/dish_images/smokedPizzaImage.png');
 
 //card3
-export const onzaImage = require('../assets/onzaImage.png');
-export const kitchenMarketImage= require('../assets/kitchenMarketImage.png');
-export const mashyaImage = require('../assets/mashyaImage.png');
+export const onzaImage = require('../assets/restaurant_images/onzaImage.png');
+export const kitchenMarketImage= require('../assets/restaurant_images/kitchenMarketImage.png');
+export const mashyaImage = require('../assets/restaurant_images/mashyaImage.png');
 
 
 
 export const ils_icon = require('../assets/ils-icon.png');
-export const yosi_shitrit_image = require('../assets/yosi-shitrit-image.png');
+export const yosi_shitrit_image = require('../assets/chef_images/yosi-shitrit-image.png');
 
 //about us
 export const about_us_logo_icon = require('../assets/about-us-logo.png');
