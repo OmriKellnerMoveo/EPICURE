@@ -38,16 +38,16 @@ export default function (props) {
             >
                 {props.card_list.map(card => {
                     return (
-                        <SplideSlide key={card.title} className="slide">
+                        <SplideSlide key={card.name} className="slide">
                             <Card
-                                key={card.title}
+                                key={card.name}
                                 type={props.type}
-                                image={card.image}
-                                title={card.title}
-                                subTitle={card.subTitle}
-                                icon={card.Icon}
-                                price={card.price}
-                                topHeader={card.topHeader}
+                                image={props.type===1?card.image:props.type===2?card['signature_dish'].image:card.image}
+                                title={props.type===1?card.name:props.type===2?card['signature_dish'].name:card.name}
+                                subTitle={props.type===1?card['chef_id'].name: props.type===2 && card['signature_dish'].description}
+                                icon={props.type===2 && card['signature_dish'].tags[0]}
+                                price={props.type===2 && card['signature_dish'].price}
+                                topHeader={props.type===2 && card.name}
                             />
                         </SplideSlide>);
                 })}
