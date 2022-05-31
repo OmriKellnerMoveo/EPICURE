@@ -39,7 +39,7 @@ const HomePage = () => {
             <IconsMeaning/>
             <SectionTitle title={chef_of_the_week_str}/>
             <ChefOfTheWeek chef={chefOfTheWeek}/>
-            <SubSectionTitle title={chefOfTheWeek['chef_id'] && chefOfTheWeek['chef_id'].name + chefs_restaurants } alignLeft/>
+            <SubSectionTitle title={chefOfTheWeek['Chef'] && chefOfTheWeek['Chef'].name + chefs_restaurants } alignLeft/>
             <Splide card_list={chefOfTheWeekRestaurants} type={3}/>
             <AboutUs/>
         </>
