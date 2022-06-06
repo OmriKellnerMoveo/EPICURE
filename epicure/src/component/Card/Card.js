@@ -10,9 +10,9 @@ import {
     lumina_img, mashyaImage, onzaImage,
     padKi_image,
     smokedPizzaImage,
-    spicyIcon,
+    Spicy,
     tiger_Lilly_img,
-    veganIcon
+    Vegan, Vegetarian
 } from "../../utils/ImageManagement";
 
 const Images ={
@@ -21,9 +21,10 @@ const Images ={
     lumina_img, mashyaImage, onzaImage,
     padKi_image,
     smokedPizzaImage,
-    spicyIcon,
+    Spicy,
     tiger_Lilly_img,
-    veganIcon
+    Vegan,
+    Vegetarian
 }
 
 const Card = (props) => {
@@ -43,7 +44,13 @@ const Card = (props) => {
                     <div style={{height: '5vw', marginBottom: '5vw'}}>
                         <CardSubTitle type={2} subTitle={props.subTitle}/>
                     </div>
-                    {props.icon ? <img className={'iconStyle'} src={Images[props.icon]} alt='icon'/> :
+                    {props.icon ?
+                        <div className={'iconsContainer'}>
+                            {props.icon.map((tag)=>{
+                         return   <img key={tag} className={'iconStyle'} src={Images[tag]} alt='icon'/>
+                        })}
+                         </div>
+                        :
                         <div className={'iconStyle'}/>}
                     <PriceWithLines price={props.price}/>
                 </div>

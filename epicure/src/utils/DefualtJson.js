@@ -21,9 +21,9 @@ import {
     lumina_img, mashyaImage, onzaImage,
     padKi_image,
     smokedPizzaImage,
-    spicyIcon,
+    Spicy,
     tiger_Lilly_img,
-    veganIcon
+    Vegan
 } from "./ImageManagement";
 
 
@@ -52,7 +52,7 @@ export const RowCard_2 = [
         image: padKi_image,
         title: pad_ki_mao_str,
         subTitle: pad_ki_mao_subTitle,
-        Icon: spicyIcon,
+        Icon: Spicy,
         price: 88
     },
     {
@@ -67,7 +67,7 @@ export const RowCard_2 = [
         image: smokedPizzaImage,
         title: smoked_pizza_str,
         subTitle: smoked_pizza_subTitle,
-        Icon: veganIcon,
+        Icon: Vegan,
         price: 65
     }
 

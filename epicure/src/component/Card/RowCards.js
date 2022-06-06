@@ -45,7 +45,7 @@ export default function (props) {
                                 image={props.type===1?card.image:props.type===2?card['signature_dish'].image:card.image}
                                 title={props.type===1?card.name:props.type===2?card['signature_dish'].name:card.name}
                                 subTitle={props.type===1?card['Chef'].name: props.type===2 && card['signature_dish'].description}
-                                icon={props.type===2 && card['signature_dish'].tags[0]}
+                                icon={props.type===2 && card['signature_dish'].tags}
                                 price={props.type===2 && card['signature_dish'].price}
                                 topHeader={props.type===2 && card.name}
                             />
