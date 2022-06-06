@@ -6,9 +6,9 @@ export const search_icon_img = require('../assets/search-icon.png');
 export const mobileMenuIcon = require('../assets/mobileMenuIcon.png');
 
 export const two_arrows_icon = require('../assets/two_arrows.png');
-export const veganIcon = require('../assets/veganIcon.png');
-export const vegetarianIcon = require('../assets/vegetarianIcon.png');
-export const spicyIcon = require('../assets/spicyIcon.png');
+export const Vegan = require('../assets/Vegan.png');
+export const Vegetarian = require('../assets/Vegetarian.png');
+export const Spicy = require('../assets/Spicy.png');
 //card 1
 export const claro_img = require('../assets/restaurant_images/claro.png');
 export const lumina_img = require('../assets/restaurant_images/lumina.png');
