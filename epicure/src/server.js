@@ -1,7 +1,9 @@
 
+const serverApi = "http://ec2-174-129-68-231.compute-1.amazonaws.com"
+
 export const getPopularRestaurant = async (setPopularRestaurants) => {
     try {
-        const url = `http://localhost:9000/api/v1/restaurant/popular`;
+        const url = `${serverApi}/api/v1/restaurant/popular`;
         const response = await fetch(url)
         const responseJson = await response.json();
         setPopularRestaurants(responseJson)
@@ -11,7 +13,7 @@ export const getPopularRestaurant = async (setPopularRestaurants) => {
 }
 export const getSignatureDish = async (setSignatureDishes) => {
     try {
-        const url = `http://localhost:9000/api/v1/dish/signature`;
+        const url = `${serverApi}/api/v1/dish/signature`;
         const response = await fetch(url)
         const responseJson = await response.json();
         setSignatureDishes(responseJson)
@@ -21,7 +23,7 @@ export const getSignatureDish = async (setSignatureDishes) => {
 }
 export const getChefOfTheWeek = async (setChefOfTheWeek) => {
     try {
-        const url = `http://localhost:9000/api/v1/chefOfTheWeek`;
+        const url = `${serverApi}/api/v1/chefOfTheWeek`;
         const response = await fetch(url)
         const responseJson = await response.json();
         setChefOfTheWeek(responseJson)
@@ -31,7 +33,7 @@ export const getChefOfTheWeek = async (setChefOfTheWeek) => {
 }
 export const getChefOfTheWeekRestaurant = async (setChefOfTheWeekRestaurants) => {
     try {
-        const url = `http://localhost:9000/api/v1/chefOfTheWeek/restaurants`;
+        const url = `${serverApi}/api/v1/chefOfTheWeek/restaurants`;
         const response = await fetch(url)
         const responseJson = await response.json();
         setChefOfTheWeekRestaurants(responseJson)
@@ -39,3 +41,4 @@ export const getChefOfTheWeekRestaurant = async (setChefOfTheWeekRestaurants) =>
         console.log(err)
     }
 }
+// http://localhost:9000
