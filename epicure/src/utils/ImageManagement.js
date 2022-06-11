@@ -29,6 +29,7 @@ export const mashyaImage = require('../assets/restaurant_images/mashyaImage.png'
 
 export const ils_icon = require('../assets/ils-icon.png');
 export const yosi_shitrit_image = require('../assets/chef_images/yosi-shitrit-image.png');
+export const user_icon = require('../assets/user_image.png');
 
 //about us
 export const about_us_logo_icon = require('../assets/about-us-logo.png');

@@ -8,6 +8,10 @@ display: flex;
     height: 23vw;
     object-fit: contain;
 }
+.user_icon{
+    border:2px #C2BABC solid;
+    border-radius: 50%;
+}
 .Chef-Paragraph {
     width: 540px;
     font-family: HelveticaNeue;
