@@ -3,6 +3,7 @@ import {search_icon_img} from "../../utils/ImageManagement";
 import React, {useState} from "react";
 import './Search_Field.css'
 import '../../Animation/rotate-scale-up.css'
+import {serverApi} from "../../utils/GlobalApi";
 
 const Search_Field = (props) => {
     const [searchText, setSearchText] = useState('')
@@ -11,7 +12,7 @@ const Search_Field = (props) => {
         setSearchText(event.target.value)
     }
     const sendApiRequest = async () => {
-        const url = `http://localhost:9000/api/v1/search/${searchText}`;
+        const url = `${serverApi}/api/v1/search/${searchText}`;
         const response = await fetch(url)
         const responseJson = await response.json();
         console.log(responseJson)

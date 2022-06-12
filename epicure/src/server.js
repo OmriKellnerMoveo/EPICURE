@@ -1,5 +1,5 @@
+import {serverApi} from "./utils/GlobalApi";
 
-const serverApi = "http://ec2-174-129-68-231.compute-1.amazonaws.com"
 
 export const getPopularRestaurant = async (setPopularRestaurants) => {
     try {
@@ -41,4 +41,4 @@ export const getChefOfTheWeekRestaurant = async (setChefOfTheWeekRestaurants) =>
         console.log(err)
     }
 }
-// http://localhost:9000
+
