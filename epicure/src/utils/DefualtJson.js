@@ -28,61 +28,60 @@ import {
 
 
 
-export const numbers = [1, 2, 3, 4]
-export const RowCard_1 = [
-    {
-        image: claro_img,
-        title: Claro_str,
-        subTitle: ran_shmueli_str
-    },
-    {
-        image: lumina_img,
-        title: lumina_str,
-        subTitle: meir_adoni_str
-    },
-    {
-        image: tiger_Lilly_img,
-        title: tiger_Lilly_str,
-        subTitle: yanir_Green_str
-    },
-]
-export const RowCard_2 = [
-    {
-        topHeader: tiger_lilly_str,
-        image: padKi_image,
-        title: pad_ki_mao_str,
-        subTitle: pad_ki_mao_subTitle,
-        Icon: Spicy,
-        price: 88
-    },
-    {
-        topHeader: kab_kem_str,
-        image: garbanzoFriyoImage,
-        title: garbanzo_frito_str,
-        subTitle: garbanzo_frito_subTitle,
-        price: 98
-    },
-    {
-        topHeader: popina_str,
-        image: smokedPizzaImage,
-        title: smoked_pizza_str,
-        subTitle: smoked_pizza_subTitle,
-        Icon: Vegan,
-        price: 65
-    }
-
-]
-
-
-export const RowCard_3 = [
-    {
-        image: onzaImage,
-        title: Onza_str,
-    }, {
-        image: kitchenMarketImage,
-        title: kitchen_market_str,
-    }, {
-        image: mashyaImage,
-        title: Mashya_str,
-    }]
+// export const RowCard_1 = [
+//     {
+//         image: claro_img,
+//         title: Claro_str,
+//         subTitle: ran_shmueli_str
+//     },
+//     {
+//         image: lumina_img,
+//         title: lumina_str,
+//         subTitle: meir_adoni_str
+//     },
+//     {
+//         image: tiger_Lilly_img,
+//         title: tiger_Lilly_str,
+//         subTitle: yanir_Green_str
+//     },
+// ]
+// export const RowCard_2 = [
+//     {
+//         topHeader: tiger_lilly_str,
+//         image: padKi_image,
+//         title: pad_ki_mao_str,
+//         subTitle: pad_ki_mao_subTitle,
+//         Icon: Spicy,
+//         price: 88
+//     },
+//     {
+//         topHeader: kab_kem_str,
+//         image: garbanzoFriyoImage,
+//         title: garbanzo_frito_str,
+//         subTitle: garbanzo_frito_subTitle,
+//         price: 98
+//     },
+//     {
+//         topHeader: popina_str,
+//         image: smokedPizzaImage,
+//         title: smoked_pizza_str,
+//         subTitle: smoked_pizza_subTitle,
+//         Icon: Vegan,
+//         price: 65
+//     }
+//
+// ]
+//
+//
+// export const RowCard_3 = [
+//     {
+//         image: onzaImage,
+//         title: Onza_str,
+//     }, {
+//         image: kitchenMarketImage,
+//         title: kitchen_market_str,
+//     }, {
+//         image: mashyaImage,
+//         title: Mashya_str,
+//     }]
 

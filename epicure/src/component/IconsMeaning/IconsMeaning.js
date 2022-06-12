@@ -9,8 +9,8 @@ const IconsMeaning = () => {
         <div className={'iconMeaningContainer'}>
             <SectionTitle title={meaning_of_icons}/>
             <div className={'container-icons'}>
-                <IconWithTitle title={Vegitarian_str} image={Vegetarian}/>
                 <IconWithTitle title={Spicy_str} image={Spicy}/>
+                <IconWithTitle title={Vegitarian_str} image={Vegetarian}/>
                 <IconWithTitle title={Vegan_str} image={Vegan}/>
             </div>
         </div>
