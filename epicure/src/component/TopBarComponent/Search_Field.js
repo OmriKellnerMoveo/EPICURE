@@ -19,13 +19,13 @@ const Search_Field = (props) => {
     }
     return (<>
         {props.withLeftIcon ? <div className={'big-Search_field'}>
-            <img src={search_icon_img} className={'SearchIconStyle SearchExtraStyle-IconStyle rotate-scale-up'}
-                 onClick={sendApiRequest} alt='search_icon'/>
-            <input onChange={handleTextInput} type={"text"} className={'inputTextStyle inputExtraStyle-TextStyle'}
-                   placeholder={Search_placeholder}/>
+            {/*<img src={search_icon_img} className={'SearchIconStyle SearchExtraStyle-IconStyle rotate-scale-up'}*/}
+            {/*     onClick={sendApiRequest} alt='search_icon'/>*/}
+            {/*<input onChange={handleTextInput} type={"text"} className={'inputTextStyle inputExtraStyle-TextStyle'}*/}
+            {/*       placeholder={Search_placeholder}/>*/}
         </div> : <div className={'Search_field'}>
-            <input type={"text"} className={'inputTextStyle'} placeholder={Search_placeholder}/>
-            <img src={search_icon_img} className={'SearchIconStyle'} onClick={sendApiRequest} alt='search_icon'/>
+            {/*<input type={"text"} className={'inputTextStyle'} placeholder={Search_placeholder}/>*/}
+            {/*<img src={search_icon_img} className={'SearchIconStyle'} onClick={sendApiRequest} alt='search_icon'/>*/}
         </div>}
     </>)
 }

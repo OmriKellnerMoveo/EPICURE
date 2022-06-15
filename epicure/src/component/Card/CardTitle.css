@@ -4,17 +4,18 @@
     font-size: 3vw;
     height: 2vw;
 }
-.Card-title-type-2 {
-    font-family: HelveticaNeue;
-    letter-spacing: 0.251vw;
-    font-size: 3vw;
-    height: 2vw;
-}
+/*.Card-title-type-2 {*/
+/*    font-family: HelveticaNeue;*/
+/*    letter-spacing: 0.251vw;*/
+/*    font-size: 3vw;*/
+/*    height: 2vw;*/
+/*}*/
 .Card-title-type-3 {
     font-family: HelveticaNeue;
-    letter-spacing: 0.251vw;
-    font-size: 2.5vw;
+    /*letter-spacing: 0.251vw;*/
+    font-size: 30px;
     height: 2vw;
+    margin-top: 19px ;
 }
 
 
@@ -22,24 +23,45 @@
     .Card-title-type-1 {
         font-size: 38.4px;
     }
-    .Card-title-type-2 {
-        font-size: 38.4px;
-    }
+    /*.Card-title-type-2 {*/
+    /*    font-size: 38.4px;*/
+    /*}*/
 
 }
+.Card-title-type-2 {
+    /*margin-top: -8vw;*/
+    /*margin-bottom: -10vw;*/
+
+    /*font-size: 6vw;*/
+    /*width: 201px;*/
+    margin-top: 15px;
+    height: 142.2px;
+    font-family: HelveticaNeue;
+    font-size: 38.4px;
+    line-height: 1.23;
+    letter-spacing: 2.56px;
+    text-align: center;
+    color: black;
+}
+
 @media screen and (max-width: 623px) {
     .Card-title-type-1 {
         margin-top: 3vw;
         font-size: 6vw;
     }
     .Card-title-type-2 {
-        margin-top: -8vw;
-        margin-bottom: -10vw;
-        font-size: 6vw;
+        font-family: HelveticaNeue;
+        font-size: 27.6px;
+        margin-top: 15px;
+        height: 60.4px;
+        line-height: 1.23;
+        letter-spacing: 1.84px;
+        text-align: center;
+        color: black;
     }
     .Card-title-type-3 {
-        margin-top: 3vw;
-        font-size: 5vw !important;
+        margin-top: 13px;
+        font-size: 20px !important;
         height: 6vw;
     }
 }

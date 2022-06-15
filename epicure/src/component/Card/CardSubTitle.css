@@ -4,11 +4,11 @@
     opacity: 0.5 !important;
 }
 
-.Sub-title-type-2 {
-    font-family: HelveticaNeue;
-    font-size: 1.6vw;
-    opacity: 0.5 !important;
-}
+/*.Sub-title-type-2 {*/
+/*    font-family: HelveticaNeue;*/
+/*    font-size: 1.6vw;*/
+/*    opacity: 0.5 !important;*/
+/*}*/
 
 @media screen and (min-width: 1440px) {
     .Sub-title {
@@ -16,16 +16,37 @@
     }
 }
 
+.Sub-title-type-2 {
+    padding-inline: 38px;
+height: 154.8px;
+font-family: HelveticaNeue;
+font-size: 24px;
+font-weight: 100;
+line-height: 1.2;
+letter-spacing: 1.6px;
+text-align: center;
+color: black;}
 @media screen and (max-width: 623px) {
     .Sub-title-type-1 {
         font-size: 5.3vw;
         opacity: 0.5 !important;
     }
 
+    /*.Sub-title-type-2 {*/
+    /*    font-size: 4.5vw;*/
+    /*    opacity: 0.5 !important;*/
+    /*    padding-inline: 5vw;*/
+    /*    height: 22vw;*/
+    /*}*/
     .Sub-title-type-2 {
-        font-size: 4.5vw;
-        opacity: 0.5 !important;
-        padding-inline: 5vw;
-        height: 22vw;
+        padding-inline: 30px;
+        height: 85.5px;
+        font-family: HelveticaNeue;
+        font-size: 17.3px;
+        font-weight: 100;
+        line-height: 1.2;
+        letter-spacing: 1.15px;
+        text-align: center;
+        color: black;
     }
 }

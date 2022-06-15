@@ -17,18 +17,23 @@
 }
 
 .ils {
-    width: 1.2vw;
+    width: 15px;
+    height: 15px;
     object-fit: contain;
-    margin-right: 6px;
     opacity: 0.55;
+    margin: auto;
+ margin-top: 10px;
+    margin-right: 4px;
 
 }
-
+.imgContainer{
+    justify-content: center;
+}
 .price {
     width: 2.5vw;
     height: 2.5vw;
     font-family: HelveticaNeue;
-    font-size: 2vw;
+    font-size: 24.9px;
     letter-spacing: 1.66px;
     opacity: 0.55;
 }
@@ -40,7 +45,7 @@
         opacity: 1;
         width: 8vw;
         height: 7vw;
-        font-size: 6vw;
+        font-size: 25px;
     }
     .ils {
         opacity: 1;

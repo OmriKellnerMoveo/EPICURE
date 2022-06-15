@@ -12,7 +12,7 @@ const MainCover = () => {
                 <div className={'search_box_container'}>
                     <p className={"Epicure-works-with-t text-focus-in"}>{epicure_works_p}</p>
                     <div className={'search_field_container'}>
-                        <Search_Field withLeftIcon/>
+                        {/*<Search_Field withLeftIcon/>*/}
                     </div>
                 </div>
             </div>

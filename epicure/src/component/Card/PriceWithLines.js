@@ -6,7 +6,9 @@ const PriceWithLines=(props)=>{
         <div className={'bottom-card'}>
             <div className={'line'}/>
             <div className={'price-container'}>
-                <img className={'ils'} src={ils_icon} alt='ils-icon'/>
+                <div className={'imgContainer'}>
+                    <img className={'ils'} src={ils_icon} alt='ils-icon'/>
+                </div>
                 <span className={'price'}>{props.price}</span>
             </div>
             <div className={'line'}/>

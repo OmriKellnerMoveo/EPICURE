@@ -20,7 +20,7 @@ const TopBar = () => {
             </div>
             <div className={'right-side'}>
                 <Search_Field/>
-                <img src={search_icon_img} className={'SearchIconStyle searchIcon'} alt={'search_icon_img'}/>
+                {/*<img src={search_icon_img} className={'SearchIconStyle searchIcon'} alt={'search_icon_img'}/>*/}
                 <img src={user_icon_img} className={'TopBarIcon'} alt={'user_icon_img'}/>
                 <img src={bag_icon_img} className={'TopBarIcon'} alt={'bag_icon_img'}/>
             </div>

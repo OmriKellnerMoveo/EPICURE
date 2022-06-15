@@ -16,7 +16,7 @@ export default function (props) {
                 ref={ref}
                 options={{
                     interval: 0,
-                    arrows: false,
+                    arrows: true,
                     type: 'loop',
                     rewind: false,
                     autoScroll: false,
@@ -28,16 +28,17 @@ export default function (props) {
                     pagination: false,
                     breakpoints: {
                         623: {
-                            //type 3 = 2.2 cards
-                            //type 2 = 1.25 cards
-                            //type 1= 1.6 cards
                             perPage: props.type === 3 ? 2.2 : props.type === 2 ? 1.25 : 1.6, perMove: 1, gap: 8,
                         },
                     }
                 }}
             >
                 {props.card_list.map(card => {
+                    if (props.type===2 && !card['signature_dish'])
+                        return (<div></div>)
+                    else
                     return (
+
                         <SplideSlide key={card.name} className="slide">
                             <Card
                                 key={card.name}
